@@ -1,0 +1,8 @@
+{
+  "labelName": "1. What is your Hero's name?",
+  "labelGender": "2. Please choose a gender.",
+  "labelAge": "3. How old is your Hero?",
+  "labelStory": "4. What type of story would you like to read?",
+  "labelImage": "5. Upload an image (optional).",
+  "fileInputPlaceholder": "drag and drop your image here or browse"
+}
