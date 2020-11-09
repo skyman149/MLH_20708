@@ -1,42 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96b02f0b-5e95-4284-a97a-02430e080625" name="Default Changelist" comment="" />
+    <list default="true" id="abb7b939-4f93-4587-9ace-b1e4e9dd3649" name="Default Changelist" comment="deleted TC-005 test case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1jqyoieSphJuY3mCjyG1euAoAfF" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jAd3EPdHF7QqimiLYCwq08eq18" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/MLH_20708" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sky\ProjectQA7\MLH\data" />
+      <recent name="C:\Users\Sky\ProjectQA7\MLH\test\smoke" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96b02f0b-5e95-4284-a97a-02430e080625" name="Default Changelist" comment="" />
-      <created>1604546095868</created>
+      <changelist id="abb7b939-4f93-4587-9ace-b1e4e9dd3649" name="Default Changelist" comment="" />
+      <created>1603250628741</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604546095868</updated>
-      <workItem from="1604546101161" duration="2382000" />
+      <updated>1603250628741</updated>
+      <workItem from="1603250629767" duration="8625000" />
+      <workItem from="1603510344185" duration="4832000" />
+      <workItem from="1603852279012" duration="9889000" />
+      <workItem from="1603937293909" duration="282000" />
+      <workItem from="1604019960724" duration="2508000" />
+      <workItem from="1604440908454" duration="16148000" />
+      <workItem from="1604519736691" duration="10721000" />
+      <workItem from="1604546103193" duration="2288000" />
+      <workItem from="1604611977810" duration="7211000" />
+      <workItem from="1604619211447" duration="3809000" />
+      <workItem from="1604630999119" duration="1111000" />
     </task>
+    <task id="LOCAL-00001" summary="deleted TC-005 test case">
+      <created>1603514874252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603514874252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted TC-005 test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted TC-005 test case" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604546620673">
+    <state x="388" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604519815925">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1604546620673" />
+    <state x="388" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1604519815925" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1603251113272">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603251113272" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603514888715">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603514888715" />
+    <state x="724" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603514777532">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="724" y="242" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603514777532" />
   </component>
 </project>
