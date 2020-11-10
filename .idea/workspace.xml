@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb7b939-4f93-4587-9ace-b1e4e9dd3649" name="Default Changelist" comment="deleted TC-005 test case" />
+    <list default="true" id="abb7b939-4f93-4587-9ace-b1e4e9dd3649" name="Default Changelist" comment="deleted TC-005 test case">
+      <change afterPath="$PROJECT_DIR$/data/2MB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/imageUpload2MB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/inputValues5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/selectors.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/selectors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/smoke/myTestsImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/myTestsImage.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jAd3EPdHF7QqimiLYCwq08eq18" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -35,10 +42,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/MLH_20708" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -95,6 +103,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="deleted TC-005 test case" />
     <option name="LAST_COMMIT_MESSAGE" value="deleted TC-005 test case" />
   </component>

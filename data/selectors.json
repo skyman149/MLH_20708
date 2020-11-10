@@ -11,5 +11,6 @@
   "tryAgain": ".btn-primary",
   "fileInput": ".ant-upload",
   "fileInputPlaceholder": "//span[@class='ant-upload']/div/div",
-  "uploadedImage": ".error__pic"
+  "uploadedImage": ".error__pic",
+  "bin": ".anticon-delete"
 }

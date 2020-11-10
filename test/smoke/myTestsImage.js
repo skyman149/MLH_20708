@@ -4,6 +4,7 @@ const data = require('../../data/testData.json');
 const inputValues4 = require('../../helpers/inputValues4.js');
 const inputValues5Create = require('../../helpers/inputValues5Create.js');
 const inputValues5CreatePNG = require('../../helpers/inputValues5CreatePNG.js');
+const inputValues5 = require('../../helpers/inputValues5.js');
 const path = require('path');
 
 describe('Image section', function () {
@@ -66,5 +67,16 @@ describe('Image section', function () {
             expect(width === 500).toEqual(true); // false
             // expect(width === 200).toEqual(true); // true
         });
+
+        //  Doesn't work, no idea how to make it work
+        // it('TC-072 Verify that "bin" icon is present in File input field', function () {
+        //     browser.url('');
+        //     inputValues5(data.name, data.gender.she, data.age, data.storyType);
+        //     //browser.pause(3000);
+        //     browser.elementHover(sel.uploadedImage);
+        //     //browser.pause(3000);
+        //     const binIcon = $$(sel.bin).isDisplayed();
+        //     expect(binIcon).toEqual(true);
+        // });
     });
 });
