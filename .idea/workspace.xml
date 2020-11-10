@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb7b939-4f93-4587-9ace-b1e4e9dd3649" name="Default Changelist" comment="deleted TC-005 test case">
-      <change afterPath="$PROJECT_DIR$/data/2MB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/imageUpload2MB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/inputValues5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/selectors.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/selectors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/smoke/myTestsImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/smoke/myTestsImage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

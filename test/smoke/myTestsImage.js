@@ -69,14 +69,20 @@ describe('Image section', function () {
         });
 
         //  Doesn't work, no idea how to make it work
-        // it('TC-072 Verify that "bin" icon is present in File input field', function () {
-        //     browser.url('');
-        //     inputValues5(data.name, data.gender.she, data.age, data.storyType);
-        //     //browser.pause(3000);
-        //     browser.elementHover(sel.uploadedImage);
-        //     //browser.pause(3000);
-        //     const binIcon = $$(sel.bin).isDisplayed();
-        //     expect(binIcon).toEqual(true);
-        // });
+        it('TC-072 Verify that "bin" icon is present in File input field', function () {
+            browser.url('');
+            inputValues5(data.name, data.gender.she, data.age, data.storyType);
+            //browser.elementHover(sel.uploadedImage);
+            const binIcon = $(sel.bin).isDisplayed();
+            expect(binIcon).toEqual(true);
+        });
+
+        it('TC-073 Verify that user is able to delete uploaded image', function () {
+            browser.url('');
+            inputValues5(data.name, data.gender.she, data.age, data.storyType);
+            $(sel.bin).click();
+            const img = $(sel.uploadedImage).isDisplayed();
+            expect(img).toEqual(false);
+            });
     });
 });
