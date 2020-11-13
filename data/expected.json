@@ -4,5 +4,7 @@
   "labelAge": "3. How old is your Hero?",
   "labelStory": "4. What type of story would you like to read?",
   "labelImage": "5. Upload an image (optional).",
-  "fileInputPlaceholder": "drag and drop your image here or browse"
+  "fileInputPlaceholder": "drag and drop your image here or browse",
+  "header" : "My Little Hero",
+  "text": "Let's create your own HERO! It's super easy with our application!"
 }

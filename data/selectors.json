@@ -12,5 +12,8 @@
   "fileInput": ".ant-upload",
   "fileInputPlaceholder": "//span[@class='ant-upload']/div/div",
   "uploadedImage": ".error__pic",
-  "bin": ".anticon-delete"
+  "bin": ".anticon-delete",
+  "header": "//h3",
+  "text": "//h3/following-sibling::p",
+  "labelImg": "//label[contains(text(), '5. Upload an image (optional)')]"
 }
