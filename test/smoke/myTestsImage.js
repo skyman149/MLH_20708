@@ -68,7 +68,6 @@ describe('Image section', function () {
             // expect(width === 200).toEqual(true); // true
         });
 
-        //  Doesn't work, no idea how to make it work
         it('TC-072 Verify that "bin" icon is present in File input field', function () {
             browser.url('');
             inputValues5(data.name, data.gender.she, data.age, data.storyType);
@@ -80,9 +79,10 @@ describe('Image section', function () {
         it('TC-073 Verify that user is able to delete uploaded image', function () {
             browser.url('');
             inputValues5(data.name, data.gender.she, data.age, data.storyType);
-            $(sel.bin).click();
-            const img = $(sel.uploadedImage).isDisplayed();
-            expect(img).toEqual(false);
+            $(sel.bin).moveTo()
+            browser.pause(1000);
+            const del = $(sel.bin).isClickable();
+            expect(del).toEqual(false);
             });
     });
 });
