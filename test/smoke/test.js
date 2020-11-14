@@ -11,7 +11,7 @@ describe('Image section', function () {
 
         it('TC-071 Verify that uploaded image is shown with max side = 500px', function () {
             browser.url('https://qa-apps.netlify.app/app_my_hero');
-            inputValues4(data.name, data.gender.she, data.age, data.storyType);
+            inputValues4(data.name, data.gender.she, data.age, data.storyType.Comedy);
             const inputDiv = $('.ant-upload input');
             const createBtn = $(sel.create);
             const filePath = path.join(__dirname, '../../data/spaceX.jpg');
@@ -30,7 +30,7 @@ describe('Image section', function () {
 
         it('TC-072 Verify that uploaded image is shown with max side = 500px', function () {
             browser.url('');
-            inputValues5Create(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5Create(data.name, data.gender.she, data.age, data.storyType.Tragedy);
             const img = $(sel.uploadedImage);
             const width = img.getSize('width')
             expect(width === 200).toEqual(true); // false

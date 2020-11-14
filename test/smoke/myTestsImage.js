@@ -40,28 +40,28 @@ describe('Image section', function () {
 
         it('TC-068 Verify that image upload is optional', function () {
             browser.url('https://qa-apps.netlify.app/app_my_hero');
-            inputValues4(data.name, data.gender.she, data.age, data.storyType);
+            inputValues4(data.name, data.gender.she, data.age, data.storyType.Rebirth);
             const clickCreate = $(sel.create).isEnabled();
             expect(clickCreate).toEqual(true);
         });
 
         it('TC-069 Verify that user can upload an JPEG(JPG) image', function () {
             browser.url('');
-            inputValues5Create(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5Create(data.name, data.gender.she, data.age, data.storyType.Tragedy);
             const img = $(sel.uploadedImage).isDisplayed();
             expect(img).toEqual(true); // true
         });
 
         it('TC-070 Verify that user can upload an PNG image', function () {
             browser.url('');
-            inputValues5CreatePNG(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5CreatePNG(data.name, data.gender.she, data.age, data.storyType["Overcoming the Monster"]);
             const img = $(sel.uploadedImage).isDisplayed();
             expect(img).toEqual(true); // true
         });
 
         it('TC-071 Verify that uploaded image is shown with max side = 500px', function () {
             browser.url('');
-            inputValues5Create(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5Create(data.name, data.gender.she, data.age, data.storyType["Journey and Return"]);
             const img = $(sel.uploadedImage);
             const width = img.getSize('width')
             expect(width === 500).toEqual(true); // false
@@ -70,7 +70,7 @@ describe('Image section', function () {
 
         it('TC-072 Verify that "bin" icon is present in File input field', function () {
             browser.url('');
-            inputValues5(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5(data.name, data.gender.she, data.age, data.storyType.Comedy);
             //browser.elementHover(sel.uploadedImage);
             const binIcon = $(sel.bin).isDisplayed();
             expect(binIcon).toEqual(true);
@@ -78,7 +78,7 @@ describe('Image section', function () {
 
         it('TC-073 Verify that user is able to delete uploaded image', function () {
             browser.url('');
-            inputValues5(data.name, data.gender.she, data.age, data.storyType);
+            inputValues5(data.name, data.gender.she, data.age, data.storyType.Tragedy);
             $(sel.bin).moveTo()
             browser.pause(1000);
             const del = $(sel.bin).isClickable();

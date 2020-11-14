@@ -16,15 +16,17 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
-    specs: [  './test/smoke/labels.js',
+    specs: [
+        './test/smoke/*.js',
 
     ],
     // Patterns to exclude.
     exclude: [
-        './test/smoke/test.js',
-        './test/smoke/myTestsImage.js',
-        './test/smoke/inputs.js',
-        './test/smoke/mainFunctionality.js', //'./test/smoke/*.js' -> for all files in repository
+        // './test/smoke/test.js',
+        // './test/smoke/myTestsImage.js',
+        // './test/smoke/inputs.js',
+        // './test/smoke/mainFunctionality.js',
+        // './test/smoke/*.js' -> for all files in repository
     ],
     //
     // ============
@@ -69,7 +71,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'silent',
     //
     // Set specific log levels per logger
     // loggers:
