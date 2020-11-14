@@ -15,5 +15,7 @@
   "bin": ".anticon-delete",
   "header": "//h3",
   "text": "//h3/following-sibling::p",
-  "labelImg": "//label[contains(text(), '5. Upload an image (optional)')]"
+  "labelImg": "//label[contains(text(), '5. Upload an image (optional)')]",
+  "genderButton": ".ant-radio-input"
+
 }
