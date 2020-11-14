@@ -6,5 +6,12 @@
   "labelImage": "5. Upload an image (optional).",
   "fileInputPlaceholder": "drag and drop your image here or browse",
   "header" : "My Little Hero",
-  "text": "Let's create your own HERO! It's super easy with our application!"
+  "text": "Let's create your own HERO! It's super easy with our application!",
+  "placeholderShe": "she",
+  "placeholderHe": "he",
+  "placeholderIt": "it",
+  "placeholderName": "Hero's name",
+  "placeholderAge": "Hero's age",
+  "placeholderStory": "Type of the story",
+  "button": "Create!"
 }
