@@ -13,5 +13,7 @@
   "placeholderName": "Hero's name",
   "placeholderAge": "Hero's age",
   "placeholderStory": "Type of the story",
-  "button": "Create!"
+  "button": "Create!",
+  "arrayOfAgeWords": ["1", "2", "3", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "fifty", "one hundred", "one hundred fifty-two", "seven hundred thirty-seven", "one thousand", "one thousand five hundred forty-two", "ten thousand", "fourteen thousand six hundred thirty-one", "one hundred thousand"]
+
 }
