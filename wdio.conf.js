@@ -18,15 +18,16 @@ exports.config = {
     //
     specs: [
         './test/smoke/*.js',
+        './test/regression/*.js',
 
     ],
     // Patterns to exclude.
     exclude: [
-        // './test/smoke/test.js',
-        // './test/smoke/myTestsImage.js',
-        // './test/smoke/inputs.js',
-        // './test/smoke/mainFunctionality.js',
-        // './test/smoke/*.js' -> for all files in repository
+       './test/smoke/test.js',
+       './test/smoke/myTestsImage.js',
+       './test/smoke/inputs.js',
+       './test/smoke/labels.js',
+       './test/smoke/mainFunctionality.js',
     ],
     //
     // ============
