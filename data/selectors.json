@@ -15,5 +15,12 @@
   "bin": ".anticon-delete",
   "header": "//h3",
   "text": "//h3/following-sibling::p",
-  "labelImg": "//label[contains(text(), '5. Upload an image (optional)')]"
+  "labelImg": "//label[contains(text(), '5. Upload an image (optional)')]",
+  "genderButton": ".ant-radio-input",
+  "storyToRead": ".card-text",
+  "storyName": ".mb-4",
+  "nameError": "//div[@role='alert'][text() ='70 symbols max']",
+  "ageUnreal": "//div[@role='alert'][text() ='looks like unreal age']",
+  "nameRequired": "//div[@role='alert' and text()='Required']"
 }
+
