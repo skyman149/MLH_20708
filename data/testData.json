@@ -15,5 +15,10 @@
     "Rags and Riches" : 4,
     "Tragedy" : 5,
     "Comedy" : 6
-  }
+  },
+  "twelveNumbers" : "123456789012",
+  "letters" : "ABCabc",
+  "symbols" : " ~!@#$%^&*()_+{}[]\\|;':\",./<>?-;",
+  "testNumber" : "4567",
+  "decimalNumber" : "123.45"
 }
