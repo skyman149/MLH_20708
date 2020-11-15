@@ -14,6 +14,12 @@
   "placeholderAge": "Hero's age",
   "placeholderStory": "Type of the story",
   "button": "Create!",
-  "arrayOfAgeWords": ["1", "2", "3", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "fifty", "one hundred", "one hundred fifty-two", "seven hundred thirty-seven", "one thousand", "one thousand five hundred forty-two", "ten thousand", "fourteen thousand six hundred thirty-one", "one hundred thousand"]
-
+  "arrayOfAgeWords": ["1", "2", "3", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "fifty", "one hundred", "one hundred fifty-two", "seven hundred thirty-seven", "one thousand", "one thousand five hundred forty-two", "ten thousand", "fourteen thousand six hundred thirty-one", "one hundred thousand"],
+  "story0": "Overcoming the Monster",
+  "story1": "Rebirth",
+  "story2": "Quest",
+  "story3": "Journey and Return",
+  "story4": "Rags and Riches",
+  "story5": "Tragedy",
+  "story6": "Comedy"
 }
