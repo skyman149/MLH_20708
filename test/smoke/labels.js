@@ -34,6 +34,11 @@ describe('My Little Hero', function () { //define suite title by passing a strin
             const label = $$(sel.label)[3].isDisplayed();
             expect(label).toEqual(true);
         });
+        // moved from myTestImage.js
+        it('TC-062 Label for Image', function () {
+            const label = $$(sel.label)[4].isDisplayed();
+            expect(label).toEqual(true);
+        });
 
     });
 
@@ -59,11 +64,15 @@ describe('My Little Hero', function () { //define suite title by passing a strin
             expect(text).toEqual(exp.labelStory);
 
         });
-
+        // moved from myTestImage.js
         it('TC-063 Label for picture  = 5. Upload an image (optional)', function () {
             const text = $(sel.labelImg).getText('title');
             expect(text).toEqual(exp.labelImage);
-
+        });
+        // moved from myTestImage.js
+        it('TC-063 Label for Image = 5. Upload an image (optional).', function () {
+            const text = $$(sel.label)[4].getAttribute('textContent');
+            expect(text).toEqual(exp.labelImage);
         });
 
     });

@@ -20,5 +20,11 @@
   "letters" : "ABCabc",
   "symbols" : " ~!@#$%^&*()_+{}[]\\|;':\",./<>?-;",
   "testNumber" : "4567",
-  "decimalNumber" : "123.45"
+  "decimalNumber" : "123.45",
+  "imageFile" : {
+    "2MB" : "../data/images/2MB.jpg",
+    "JPEG" : "../data/images/spaceX.jpg",
+    "PNG" : "../data/images/spaceXpng.png",
+    "catNoir" : "../data/images/catNoir.jpg"
+  }
 }

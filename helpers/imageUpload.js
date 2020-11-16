@@ -1,8 +1,8 @@
 const path = require('path');
 
-function imageUpload2MB(){
+function imageUpload(fileName){
     const inputDiv = $('.ant-upload input');
-    const filePath = path.join(__dirname, '../data/2MB.jpg');
+    const filePath = path.join(__dirname, fileName);
     const remoteFilePath = browser.uploadFile(filePath);
     browser.execute(function () {
         document.getElementsByTagName('input')[6].style.display = "block";
@@ -11,4 +11,4 @@ function imageUpload2MB(){
     inputDiv.setValue(remoteFilePath);
 }
 
-module.exports = imageUpload2MB;
+module.exports = imageUpload;
