@@ -1,5 +1,5 @@
 const sel = require('../data/selectors.json');
-const imageUpload2MB = require('../helpers/imageUpload2MB');
+const imageUpload2MB = require('./imageUpload');
 
 
 function inputValues5(name, gender, age, storyType){

@@ -5,8 +5,6 @@ const findTextAge= require ('../../helpers/findTextAge.js');
 const inputValues3 = require ('../../helpers/inputValues3.js');
 const inputValues4 = require ('../../helpers/inputValues4.js');
 const checkUpperCase = require ('../../helpers/checkUpperCase.js');
-const inputValues5 = require('../../helpers/inputValues5.js');
-const inputValues5Create = require('../../helpers/inputValues5Create.js');
 const path = require('path');
 
 
@@ -51,7 +49,8 @@ describe('Checking the Story to Read', function () {
 
     it('TC-097 Verify that the story has the image if it was uploaded', function () {
         browser.url('');
-        inputValues5Create(data.name, data.gender.she, data.age, data.storyType.Comedy);
+        inputValues4(data.name, data.gender.she, data.age, data.storyType.Comedy, data.imageFile.JPEG);
+        $(sel.create).click();
         const img = $(sel.uploadedImage).isDisplayed();
         expect(img).toEqual(true);
     });
@@ -63,9 +62,6 @@ describe('Checking the Story to Read', function () {
         const img = $(sel.uploadedImage).isDisplayed();
         expect(img).toEqual(false);
     });
-
-
-
 
     it('TC-102 Verify that Story page has "Try again" button', function () {
         browser.url('');
@@ -97,17 +93,15 @@ describe('Checking the Story to Read', function () {
 
     });
 
-
     it('TC-168 Verify that the age is shown in words', function () {
         browser.url('');
         for (let i = 0; i < data.checkAge.length; i++) {
-            inputValues5(data.name, data.gender.she, data.checkAge[i], data.storyType.Comedy);
+            inputValues4(data.name, data.gender.she, data.checkAge[i], data.storyType.Comedy, data.imageFile.catNoir);
             $(sel.create).click();
             browser.pause(3000);
             let textAge = findTextAge();
             expect(textAge).toEqual(exp.arrayOfAgeWords[i]);
             $(sel.tryAgain).click();
-
         }
     });
 

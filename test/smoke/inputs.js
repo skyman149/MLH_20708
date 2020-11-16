@@ -35,11 +35,18 @@ describe('Inputs', function () {
             const label = $(sel.story).isDisplayed();
             expect(label).toEqual(true);
         });
-        it('TC-020 Create', function () {
+        // moved from myTestImage.js
+        it('TC-064 File input field is present', function () {
+            const input = $(sel.fileInput).isDisplayed();
+            expect(input).toEqual(true);
+        });
+
+        it('TC-020 Create button exist', function () {
             const label = $(sel.create).isDisplayed();
             expect(label).toEqual(true);
         });
-        it('TC-021 Create ', function () {
+
+        it('TC-021 Create has name "create"', function () {
             const label = $(sel.create).getText();
             expect(label).toEqual(exp.button);
         });
@@ -63,22 +70,24 @@ describe('Inputs', function () {
             expect(placeholder).toEqual(exp.placeholderStory);
         });
 
-
         it('TC-028.4 Placeholder for she', function () {
             const placeholder = $$(sel.genderButton)[1].getValue();
             expect(placeholder).toEqual(exp.placeholderShe);
         });
-
 
         it('TC-028.5 Placeholder for he', function () {
             const placeholder = $$(sel.genderButton)[0].getValue();
             expect(placeholder).toEqual(exp.placeholderHe);
         });
 
-
         it('TC-028.6 Placeholder for it', function () {
             const placeholder = $$(sel.genderButton)[2].getValue();
             expect(placeholder).toEqual(exp.placeholderIt);
+        });
+
+        it('TC-065 Placeholder for file input field = drag and drop your image here or browse', function () {
+            const text = $(sel.fileInput).getText();
+            expect(text).toEqual(exp.fileInputPlaceholder);
         });
 
     });
